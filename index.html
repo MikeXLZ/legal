@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · 这破班还要上多久</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2329; --muted: #606773;
+    --line: #e6e8ec; --accent: #4b6ef5; --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1116; --fg: #e6e9ef; --muted: #a6aeb9;
+      --line: #262c36; --accent: #6c8bff; --card: #1a1f27;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 80px;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.85 -apple-system, BlinkMacSystemFont, "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 26px; line-height: 1.4; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 38px 0 12px; padding-top: 18px;
+        border-top: 1px solid var(--line); }
+  h3 { font-size: 16px; margin: 24px 0 8px; color: var(--accent); }
+  p { margin: 10px 0; }
+  ul { margin: 10px 0; padding-left: 22px; }
+  li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--line); padding: 9px 12px; text-align: left; }
+  th { background: var(--card); font-weight: 600; }
+  code { background: var(--card); padding: 2px 6px; border-radius: 5px;
+          font-size: 14px; }
+  a { color: var(--accent); }
+  hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
+            color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>隐私政策</h1>
+
+<p><strong>生效日期：2026 年 11 月 10 日</strong></p>
+<p><strong>最后更新：2026 年 11 月 10 日</strong></p>
+
+<p>「这破班还要上多久」（以下简称&quot;本应用&quot;）由 MikeXLZ（以下简称&quot;我们&quot;）开发。我们重视你的隐私，本政策说明本应用如何处理你的信息。</p>
+
+<h2>一、我们不收集的信息</h2>
+
+<p>本应用<strong>不需要注册账号</strong>，也<strong>不收集</strong>以下信息：</p>
+
+<ul>
+<li>姓名、手机号、邮箱等身份信息</li>
+<li>设备标识符（IDFA、IDFV）</li>
+<li>通讯录、相册、麦克风、摄像头</li>
+<li>精确定位（本应用不调用系统定位服务）</li>
+</ul>
+
+<h2>二、保存在你设备上的数据</h2>
+
+<p>以下数据<strong>仅保存在你的设备本地</strong>（UserDefaults / App 沙盒），不会上传到我们的服务器，我们也无法读取：</p>
+
+<table>
+<tr><th>数据</th><th>用途</th></tr>
+<tr><td>出生日期、身份类型</td><td>计算退休日期</td></tr>
+<tr><td>收支与资产假设</td><td>计算财务自由目标</td></tr>
+<tr><td>候选城市、天气偏好</td><td>匹配假期天气</td></tr>
+<tr><td>提醒设置</td><td>定时发送本地通知</td></tr>
+</table>
+
+<p>卸载本应用会一并删除这些数据。你也可以在应用内使用「重置」按钮随时清空。</p>
+
+<h2>三、发送到第三方的数据</h2>
+
+<p>本应用有两处会向第三方服务发送数据，都只在你使用「出行安排」功能时发生：</p>
+
+<h3>1. 和风天气（QWeather）</h3>
+
+<ul>
+<li>发送内容：<strong>你所选城市的经纬度</strong></li>
+<li>用途：获取未来 7 天天气预报、台风预警信息</li>
+<li>不包含：任何设备标识、账号信息、你的位置</li>
+<li>隐私政策：https://www.qweather.com/terms/privacy</li>
+</ul>
+
+<h3>2. Open-Meteo</h3>
+
+<ul>
+<li>发送内容：<strong>你所选城市的经纬度与日期</strong></li>
+<li>用途：获取去年同期的历史天气作为参考</li>
+<li>不包含：任何设备标识、账号信息</li>
+<li>隐私政策：https://open-meteo.com/en/terms</li>
+</ul>
+
+<p>我们不会把上述请求与你的身份关联，也不会在服务器侧留存用户数据。</p>
+
+<h2>四、通知</h2>
+
+<p>本应用的提醒功能使用 <strong>iOS 系统本地通知</strong>，通知在设备本地生成与触发，不经过任何服务器。</p>
+
+<p>你可以在「设置 → 通知 → 这破班还要上多久」中随时关闭。</p>
+
+<h2>五、数据共享与出售</h2>
+
+<p>我们<strong>不出售、不共享、不转让</strong>你的个人信息给任何第三方，因为我们根本没有收集。</p>
+
+<h2>六、儿童隐私</h2>
+
+<p>本应用不针对 13 岁以下儿童，也不会有意收集儿童信息。</p>
+
+<h2>七、你的权利</h2>
+
+<p>由于本应用不收集个人信息，无需提供数据导出或删除请求。本地数据的清空方式：</p>
+
+<ul>
+<li>应用内：各页面的「重置」按钮</li>
+<li>彻底清除：在 iOS 上删除本应用</li>
+</ul>
+
+<h2>八、政策更新</h2>
+
+<p>如本政策发生变更，我们会更新本页面顶部的「最后更新」日期。涉及重大变更时，会在应用更新说明中提示。</p>
+
+<h2>九、联系我们</h2>
+
+<p>如对本政策有疑问，请联系：</p>
+
+<p><strong>邮箱：zxl@live.cn</strong></p>
+
+<p>我们会在 7 个工作日内回复。</p>
+<footer>本页为「这破班还要上多久」的隐私政策，若与 App 内说明不一致，以本页为准。</footer>
+</main>
+</body>
+</html>
